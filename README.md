@@ -5,7 +5,7 @@
 An application that writes and saves notes. Uses express.js and retrives note data.
 
 
-![Alt Text](Develop\public\assets\appscreenshot.png)
+![Alt Text](Develop/public/assets/appscreenshot.png)
 
 
 ## Table of Contents
