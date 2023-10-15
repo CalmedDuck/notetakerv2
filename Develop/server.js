@@ -12,7 +12,7 @@ app.use('/assets/css', function(req, res, next) {
     res.setHeader('Content-Type', 'text/css');
     next();
   });
-app.use(express.static('public'));
+  app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
 app.use('/api', apiRoutes);
