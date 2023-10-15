@@ -8,6 +8,10 @@ const PORT = process.env.PORT || 3001;
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use('/assets/css', function(req, res, next) {
+    res.setHeader('Content-Type', 'text/css');
+    next();
+  });
 app.use(express.static('public'));
 
 // Routes
