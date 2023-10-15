@@ -17,7 +17,7 @@ An application that writes and saves notes. Uses express.js and retrives note da
 
 
 ## Installation
-Clone repo and run npm install and node server.js. Sever will be acessible at http://localhost:3001. Or view on Heroku by visting https://tranquil-bastion-38525-f55db5809c7f.herokuapp.com/
+Clone repo and run npm install and node Develop/server.js. Sever will be acessible at http://localhost:3001. Or view on Heroku by visting https://tranquil-bastion-38525-f55db5809c7f.herokuapp.com/
 ## Usage
 After server deployment click the get started button and start creating notes by entering a title and note conent. Once both fields have content you can now save and delete notes.
 
